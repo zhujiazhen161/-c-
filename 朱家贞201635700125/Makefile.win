@@ -1,15 +1,15 @@
-# Project: Project1
+# Project: 项目2
 # Makefile created by Dev-C++ 5.9.2
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = 113.10.1.o
-LINKOBJ  = 113.10.1.o
+OBJ      = 项目2.o
+LINKOBJ  = 项目2.o
 LIBS     = -L"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/lib" -L"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/include" -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
 CXXINCS  = -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/include" -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Users/朱家贞/Desktop/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
-BIN      = 113-10.1.exe
+BIN      = 项目2.exe
 CXXFLAGS = $(CXXINCS) -g3
 CFLAGS   = $(INCS) -g3
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-113.10.1.o: 113.10.1.c
-	$(CC) -c 113.10.1.c -o 113.10.1.o $(CFLAGS)
+项目2.o: 项目2.c
+	$(CC) -c 项目2.c -o 项目2.o $(CFLAGS)
